@@ -1,0 +1,194 @@
+.paiementESP {
+    padding: 0px 45px; }
+    .paiementESP h2 {
+        font-size: 1.8vw;
+        padding: 0px 0px 10px 0px;
+        margin: 0;
+        font-weight: bold;
+        color: rgb(54, 32, 136); }
+    .paiementESP .valid_ESP {
+        font-size: 1.6vw;
+        padding: 0px 0px 10px 0px;
+        margin: 0;
+        font-weight: bold;
+        color: rgb(32, 136, 79); }
+        .paiementESP .valid_ESP button{
+            outline: none;
+            border: none;
+            font-weight: 600;
+            cursor: pointer;
+            align-self: self-start;
+            padding: 5px 15px;
+            border-radius: 10px;
+            color: #26985f;
+            background: #fff;
+            margin-left: 15px;}
+
+/* Styles argent client */
+.argent_client {
+    display: flex; /* Définit le type d'affichage (flexible) */
+    justify-content: space-around; /* Répartition uniforme des éléments sur l'axe principal */
+}
+.argent_client table {
+    border-collapse: collapse; /* Fusion des bordures de cellules */
+    width: 40%;
+    margin-bottom: 20px;
+}
+/* Styles pour les cellules d'en-tête */
+.argent_client th {
+    background-color: #31b472a8;
+}
+/* Styles pour les cellules d'en-tête et de données dans les tableaux */
+.argent_client th, .argent_client td {
+    border: 1px solid #fff; /* Bordures des cellules */
+    padding: 4px;
+    text-align: center;
+}
+
+.argent_client_piece img {
+    width: 5.5vh;
+}
+.argent_client_billet img {
+    width: 18vh;
+}
+
+.argent_client_quantite {
+    font-size: 2vw;
+    color: rgb(148, 32, 158); }
+
+.argent_client button {
+    border: none; /* Suppression des bordures */
+    background: none; /* Suppression du fond */
+}
+/* Styles pour les icônes */
+.argent_client i {
+    color: #31b472;
+    font-size: 25px;
+    padding: 0 2px;
+}
+
+.paiement-ESPInsuf {
+    text-align: center;
+    padding: 25px; }
+.paiement-ESPInsuf i {
+    color: rgb(218, 52, 10);
+    padding: 20px;
+    font-size: 8em; }
+.paiement-ESPInsuf h3 {
+    padding: 20px 0 10px;
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: 500; }
+.paiement-ESPInsuf .merci {
+    font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+    color: grey; }
+.paiement-ESPInsuf .bouton {
+    padding-top: 20px; }
+
+.paiement-ESPInsuf .bouton a {
+    outline: none;
+    border: none;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: #26985f;
+    background: #fff;
+    width: 200px;
+    margin: 0 auto;}
+    .paiement-ESPInsuf .bouton a:hover {
+        background: #26985f;
+        color: #fff; }
+
+.paiement-ESP {
+    text-align: center;
+    padding: 25px; }
+.paiement-ESP i {
+    color: green;
+    padding: 20px;
+    font-size: 8em; }
+.paiement-ESP h3 {
+    padding: 20px 0 10px;
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: 500; }
+.paiement-ESP .merci {
+    font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+    color: grey; }
+.paiement-ESP .bouton {
+    padding-top: 20px; }
+
+.paiement-ESP .bouton button {
+    outline: none;
+    border: none;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: #26985f;
+    background: #fff;
+    width: 200px;
+    margin: 0 auto;}
+    .paiement-ESP .button button:hover {
+        background: #26985f;
+        color: #fff; }       
+  
+
+
+.paiement-ESPRendu {
+    text-align: center;
+    padding: 25px; }
+.paiement-ESPRendu i {
+    color: green;
+    padding: 20px;
+    font-size: 8em; }
+.paiement-ESPRendu h3 {
+    padding: 20px 0 10px;
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: 500; }
+    .paiement-ESPRendu .argentRendu {
+        display: flex;
+        justify-content: center;
+    }
+    .paiement-ESPRendu .argentRendu .detailmonnaie {
+        display: flex;
+        justify-content: center;
+        padding: 5px 12px;
+    }
+        .paiement-ESPRendu .argentRendu .detailmonnaie img {
+            height: 6vh;
+            padding-right: 5px;
+        }
+        .paiement-ESPRendu .argentRendu .detailmonnaie p {
+            margin: auto;
+            font-size: 1.5em;
+            font-weight: 500; }
+
+.paiement-ESPRendu .bouton {
+    padding-top: 20px; }
+
+.paiement-ESPRendu .bouton a {
+    outline: none;
+    border: none;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: #26985f;
+    background: #fff;
+    width: 200px;
+    margin: 0 auto;}
+    .paiement-ESP .ESPRendu a:hover {
+        background: #26985f;
+        color: #fff; }       
+          
+        
+          

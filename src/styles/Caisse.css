@@ -1,0 +1,97 @@
+.total {
+    font-size: 4vw; /* Taille de la police en fonction de la largeur de la vue */
+    padding: 20px 0 15px 40px;
+    margin: 0;
+    font-weight: bold;
+    color: rgb(32, 136, 32);
+}
+
+/* Styles pour le bouton*/
+.vider-caisse {
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+.total-caisse button {
+    align-self: center; /* Alignement de l'élément par rapport à son conteneur flex */
+    margin-right: 40px;
+}
+
+/* Styles verou */
+.verou h3 {
+    font-size: 3vw; /* Taille de la police en fonction de la largeur de la vue */
+    padding: 0 0 10px 80px;
+}
+.verou-code {
+    align-items: center; /* Alignement des éléments enfants le long de l'axe transversal */
+    text-align-last: center; /* Alignement du dernier élément de texte par rapport à la direction de l'écriture */
+}
+.verou-code button {
+    border: none; /* Suppression des bordures */
+    color: #fff;
+    background: #31b472;
+    font-size: 2vw; /* Taille de la police en fonction de la largeur de la vue */
+    padding: 0 10px;
+    height: 7vw;
+    width: 20vw;
+}
+.verou-demande {
+    border: none; /* Suppression des bordures */
+    font-size: 2vw; 
+    background: rgba(49, 180, 114, 0.199); /* Couleur de fond avec opacité */
+    height: 7vw;
+    width: 20vw;
+    text-align: center; /* Alignement du texte */
+}
+
+/* Styles caisse */
+.caisse {
+    display: flex; /* Définit le type d'affichage (flexible) */
+    justify-content: space-around; /* Répartition uniforme des éléments sur l'axe principal */
+}
+.caisse table {
+    border-collapse: collapse; /* Fusion des bordures de cellules */
+    width: 40%;
+    margin-bottom: 20px;
+}
+/* Styles pour les cellules d'en-tête et de données dans les tableaux */
+.caisse th, .caisse td {
+    border: 1px solid #fff; /* Bordures des cellules */
+    padding: 8px;
+    text-align: center;
+}
+/* Styles pour les cellules d'en-tête */
+.caisse th {
+    background-color: #31b472a8;
+}
+.caisse-piece img {
+    width: 6vh;
+}
+.caisse-billet img {
+    width: 20vh;
+}
+.caisse h1 {
+    text-align: center;
+}
+.caisse button {
+    border: none; /* Suppression des bordures */
+    background: none; /* Suppression du fond */
+}
+/* Styles pour les icônes */
+.caisse i {
+    color: #31b472;
+    font-size: 25px;
+    padding: 0 2px;
+}
+
+/* Styles pour les écrans de petite taille */
+@media (max-width: 700px) {
+    .caisse {
+        flex-direction: column; /* Réorganisation des éléments en colonne */
+        align-items: center; /* Alignement des éléments enfants le long de l'axe transversal */
+    }
+
+    .caisse table {
+        width: 80%; /* Largeur du tableau pour les écrans de petite taille */
+    }
+}

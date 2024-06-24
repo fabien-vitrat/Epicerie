@@ -1,0 +1,17 @@
+.footer {
+	color: rgb(13, 45, 224);
+	padding: 20px;
+	border-top: solid 3px black; /* Bordure */
+	display: flex; /* Définit le type d'affichage (flexible) */
+	justify-content: flex-start; /* Alignement des éléments sur le côté gauche */
+	flex-direction: column; /* Direction des éléments (en colonne) */
+	align-items: center; /* Alignement des éléments sur l'axe transversal (centré horizontalement) */
+	font-weight: 600;
+	font-size: larger;
+	background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url(https://multimedia.andalucia.org/media/65220A8E179244B29942D9A1669F883F/img/2A040ED17F424C339EB332E579B5ADC9/Ocio_y_Diversion_Visita_a_la_Serrania_de_Ronda_9.jpg?responsive) center/cover no-repeat ; /* Définit un fond avec un dégradé linéaire semi-transparent et une image de fond centrée et en mode "cover" */
+}
+
+.footer-elem {
+	color: #fff;
+	font-weight: 900;
+}

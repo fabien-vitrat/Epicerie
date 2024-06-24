@@ -1,0 +1,133 @@
+.ticket {
+	color: white;
+	background-color: #31b572;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start; }
+
+.ticket h1 {	
+	padding: 0;
+	margin: 0;
+	padding-bottom: 5px;
+	text-align: center; }
+.ticket .mon-ticket {
+	text-align: center; 
+	font-size: 1.2em; }
+.ticket .code-barre {
+	padding: 0;
+	margin: 0;
+	padding-bottom: 15px;
+	text-align: center;
+	font-size: 50px; }
+
+.ticket-final {
+	background-color: #31b572;
+	margin: 0;
+	padding: 15px 15px 35px;
+	color: #fff;
+	display: flex;
+	justify-content: center; }
+	.ticket-final h2 {
+		margin: 0;
+		padding-top: 15px;
+		font-variant-caps: petite-caps;
+		font-size: 1.4em;
+		font-weight: 900; }
+	.ticket-final .produit-cat {
+		display: flex;
+		align-items: center;
+		justify-content: space-between; }
+		.ticket-final .produit-cat p {
+			margin: 0;
+			padding: 0;
+			padding-left: 10px;
+			font-size: 1.1em; }
+			.ticket-final .produit-cat .nom {
+				text-transform: uppercase; }
+			.ticket-final .produit-cat .prix {
+				font-weight: 600; }
+	.ticket-final .quantite {
+		margin: 0;
+		padding: 2px 0 0 35px;
+		font-size: 0.8em; }
+	.ticket-final .ticket-total {
+		padding-top: 35px; }
+		.ticket-final .ticket-total p {
+			font-weight: 900;
+			padding: 0; }
+			.ticket-final .ticket-total .titre {
+				text-transform: uppercase;
+				font-size: 1.4em; }
+				.ticket-final .ticket-total .titre small {
+					font-size: 0.6em;
+					font-weight: normal;
+					text-transform: none; }
+			.ticket-final .ticket-total .prix-total {
+				font-size: 1.4em;
+				border-top: 2px dashed #fff; }
+	.ticket-final .info-ticket-restau {
+		margin: 30px 15px 0;
+		padding-top: 10px;
+		text-align: center;
+		border-top: 1px dashed #fff;
+		font-size: 0.8em; }
+	.ticket-final .merci {
+		margin: 10px 15px 0;
+		padding-top: 10px;
+		text-align: center;
+		border-top: 1px dashed #fff;
+	}
+
+	.ticket-final .affichage-paiement {
+		text-align: center;
+		width: 200px;
+		outline: none;
+		border: none;
+		font-weight: 600;
+		cursor: pointer;
+		align-self: self-start;
+		padding: 5px 15px;
+		border-radius: 10px;
+		color: #26985f;
+		background: #fff;
+		margin: 15px auto 0px auto; }
+		.ticket-final .affichage-paiement:hover {
+			background: #26985f;
+			color: #fff; }
+
+.ticket_erreur {
+	text-align: center;
+	padding: 25px; }
+.ticket_erreur i {
+	color: orange;
+	padding: 20px;
+	font-size: 8em; }
+.ticket_erreur h3 {
+	padding: 20px 0 10px;
+	margin: 0;
+	font-size: 1.5em;
+	font-weight: 500; }
+.ticket_erreur .merci {
+	font-size: 1.2em;
+	padding: 0;
+	margin: 0;
+	color: grey; }
+.ticket_erreur .bouton {
+	padding-top: 20px; }
+
+.ticket_erreur .bouton a {
+	outline: none;
+	border: none;
+	text-align: center;
+	font-weight: 600;
+	cursor: pointer;
+	padding: 5px 15px;
+	border-radius: 10px;
+	color: #26985f;
+	background: #fff;
+	width: 200px;
+	margin: 0 auto;}
+	.ticket_erreur .bouton a:hover {
+		background: #26985f;
+		color: #fff; }

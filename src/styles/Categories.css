@@ -1,0 +1,55 @@
+/* Styles pour la catégorie d'achat */
+.shopping-categorie {
+    position: fixed; /* Position fixe par rapport à la fenêtre du navigateur */
+    width: 67%;
+    z-index: 1; /* Empilement de l'élément par rapport aux autres éléments */
+    background: #d7ebf6;
+}
+
+/* Styles pour la section des catégories */
+.categories {
+    display: flex; /* Affichage en tant que conteneur flexible */
+    justify-content: center; /* Alignement horizontal au centre */
+    align-items: center; /* Alignement vertical au centre */
+    flex-wrap: nowrap; /* Empêche le renvoi à la ligne des éléments flexibles */
+    padding-right: 40px; 
+}
+.categories p {
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 0 15px 0 0;
+}
+.categories .categories-select {
+    padding: 4px;
+    border: none; /* Suppression des bordures */
+    border-bottom: 1px solid #26985f; /* création de bordure */
+    background: #f7f7f7;
+    font-size: 0.9em;
+}
+.categories button {
+    padding: 5px; 
+    border: none;
+    background: #26985f;
+    font-size: 0.9em;
+    color: #fff;
+    border-radius: 0 5px 5px 0; /* Arrondi des coins */
+}
+
+/* Mise en page pour les téléphones */
+@media (max-width:600px) {
+    .categories {
+        font-size: 13px;
+        padding-right: 10px;
+    }
+    .categories p {
+        margin-bottom: 10px;
+    }
+}
+
+/* Mise en page pour les tablettes */
+@media (max-width: 888px) {
+    .shopping-categorie {
+        margin-top: 330px;
+        width: 100%;
+    }
+}

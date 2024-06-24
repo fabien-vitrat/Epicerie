@@ -1,0 +1,94 @@
+.ticket {
+	color: white;
+	background-color: #31b572;
+	padding: 15px 10px 20px ;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	max-width: 100%; }
+	.ticket ul {
+		padding: 0; }
+	.ticket table {
+		border-collapse: collapse;
+		border: 2px solid #ddd;
+		width: 100%;
+		padding: 0; }
+		.ticket th, .ticket td {
+			border: 1px solid #ddd;
+			padding: 5px; }
+			.ticket .quantite {
+				text-align: center; }
+			.ticket .prix {
+				text-align: right; }
+			.ticket .nom {
+				text-align: left; }
+	.ticket h2 {
+		font-variant-caps: petite-caps;
+		margin: 0;
+		line-height: 100%;
+		padding: 25px 0 10px 0; }
+	.ticket h3 {
+		font-weight: bold;
+		text-transform: uppercase;
+		text-align: right;
+		padding: 5px 0; }
+	.ticket .vider {
+		padding: 6px 10px;
+		border-radius: 15px;
+		border: none;
+		background: #26985f;
+		color: #fff;
+		font-weight: 600; }
+	.ticket .affichage-ticket {
+		outline: none;
+		border: none;
+		font-weight: 600;
+		cursor: pointer;
+		align-self: self-start;
+		padding: 5px 15px;
+		border-radius: 10px;
+		color: #26985f;
+		background: #fff;
+		margin-top: 5px; }
+		.ticket .affichage-ticket:hover {
+			background: #26985f;
+			color: #fff; }
+
+.ticket-add-button {
+	margin-left: 32px;
+	cursor: pointer;
+}
+
+.ticket-toggle-button {
+	outline: none;
+	border: none;
+	font-weight: 600;
+	cursor: pointer;
+	align-self: self-start;
+    padding: 5px 15px;
+	border-radius: 10px;
+	color: #26985f;
+	background: #fff;
+	margin-top: 5px;
+}
+
+.ticket-closed {
+	padding: 32px;
+	width: 200px;
+}
+
+.ticket-closed > button {
+	color: #fff;
+    border: 1px solid #26985f;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background: #26985f;
+}
+
+@media (max-width: 888px) {
+	.ticket-closed {
+		background: #d7ebf6;
+		width: 100%;
+		position: fixed; }
+}

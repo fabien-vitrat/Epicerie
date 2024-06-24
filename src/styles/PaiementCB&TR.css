@@ -1,0 +1,35 @@
+.paiement-bancaire {
+    text-align: center;
+    padding: 25px; }
+.paiement-bancaire i {
+    color: green;
+    padding: 20px;
+    font-size: 8em; }
+.paiement-bancaire h3 {
+    padding: 20px 0 10px;
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: 500; }
+.paiement-bancaire .merci {
+    font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+    color: grey; }
+.paiement-bancaire .bouton {
+    padding-top: 20px; }
+
+.paiement-bancaire .bouton a {
+    outline: none;
+    border: none;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: #26985f;
+    background: #fff;
+    width: 200px;
+    margin: 0 auto;}
+    .paiement-bancaire .bouton a:hover {
+        background: #26985f;
+        color: #fff; }

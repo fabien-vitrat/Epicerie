@@ -1,0 +1,45 @@
+.article-list {
+	list-style-type: none; /* Supprime les puces de liste */
+	display: flex; /* Affichage en flexbox */
+	flex-wrap: wrap; /* Permet à la liste d'articles de passer à la ligne lorsque l'espace est insuffisant */
+	justify-content: space-around; /* Répartition égale des éléments autour de l'axe principal */
+	position: relative; /* Position relative par rapport à son conteneur parent */
+	top: 60px; 
+	padding-bottom: 50px;
+}
+
+.article {
+	padding: 10px;
+	border-radius: 20px;
+	border: 1px solid #fff;
+	background: #fff; 
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Ombre de boîte avec un flou de 20px */
+	margin: 20px 10px; 
+	width: 270px; 
+}
+
+.article .btn {
+	background: #26985f;
+	padding: 10px 15px;
+	margin: 0 5px;
+	float: right; /* Alignement à droite */
+	border-radius: 50%;
+	border: none; /* Supprime la bordure */
+	font-size: 16px; 
+}
+
+.article .btn:hover {
+	background: #c65756; /* Couleur de fond du bouton au survol */
+}
+
+.article .btn i {
+	color: #fff;
+}
+
+
+@media (max-width: 888px) {
+	.article-list {
+		padding-top: 330px;
+		justify-content: space-evenly; /* Répartition égale des éléments, y compris les marges, autour de l'axe principal */
+	}
+}
